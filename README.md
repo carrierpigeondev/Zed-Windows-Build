@@ -1,10 +1,11 @@
-# Zed Windows Build
-A simple script that builds the Zed code editor from the GitHub source for Windows.
+# 🖥️ Zed Windows Build
+Welcome to the **Zed Windows Build** - a PowerShell script to build the Zed code editor from source on Windows
 
 # Prerequisites
+Before running this script, ensure you have the following:
 
 ### PowerShell
-This requires PowerShell, which *should* be preinstalled on Windows machines. This script is aimed toward building for Windows with Windows.
+The script requires PowerShell, which *should* be preinstalled on Windows machines. This script is aimed toward building for Windows with Windows.
 
 ### Visual Studio
 This script will NOT install Visual Studio or related build tools, which are necessary to build Zed for Windows. To quote:
@@ -12,8 +13,19 @@ This script will NOT install Visual Studio or related build tools, which are nec
 
 For example, I use `MSVC v143 - VS 2022 C++ x64/86 build tools`.
 
-# Steps
-The following steps will be taken in the script. View `zed_build_script+Windows.ps1` for the source.
+# 🤔 How to Use 
+### Download the `zed_build_script+Windows.ps1` file, run it as administrator, and everything will automatically download and compile.
+
+Note: there are a few options to interact with in the command line.
+
+Also note: the script will automatically download `git` and `rustup` if they are not already installed.
+
+---
+
+For a breakdown of the script see the section below:
+
+# 🔨 Steps
+**The script automates the following steps.**
 
 ### 1) Check if the user is running as administrator, exit if not.
 - This is done through the build in `#Requires -RunAsAdministrator`
@@ -53,7 +65,8 @@ The following steps will be taken in the script. View `zed_build_script+Windows.
 - Default choice is to exit and tell the user to run the cargo commands manually.
 
 # Sources
-See the original GitHub repository here: https://github.com/zed-industries/zed\
+See the original GitHub repository here: https://github.com/zed-industries/zed
+
 See the original guide this script is based off here: https://github.com/zed-industries/zed/blob/main/docs/src/development/windows.md
 
 # Support
