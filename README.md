@@ -9,7 +9,7 @@ This requires PowerShell, which *should* be preinstalled on Windows machines. Th
 ### Visual Studio
 This script will NOT install Visual Studio or related build tools, which are necessary to build Zed for Windows. To quote:
  > Install [Visual Studio](https://visualstudio.microsoft.com/downloads/) with optional component `MSVC v*** - VS YYYY C++ x64/x86 build tools` and install Windows 11 or 10 SDK depending on your system
-
+For example, I use `MSVC v143 - VS 2022 C++ x64/86 build tools`.
 
 # Steps
 The following steps will be taken in the script. View `zed_build_script+Windows.ps1` for the source.
