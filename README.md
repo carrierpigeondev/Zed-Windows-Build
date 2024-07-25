@@ -31,7 +31,7 @@ For a breakdown of the script see the section below:
 **The script automates the following steps.**
 
 ### 1) Check if the user is running as administrator, exit if not.
-- This is done through the build in `#Requires -RunAsAdministrator`
+- This is done with `#Requires -RunAsAdministrator` at the top of the script.
 
 ### 2) Check if `git` is installed on the system / added to PATH.
 - If it is not, allow the user to install the latest version, using the GitHub API to get the latest release version.
