@@ -1,5 +1,8 @@
 # 🖥️ Zed Windows Build
-Welcome to the **Zed Windows Build** - a PowerShell script to build the Zed code editor from source on Windows
+![image](https://github.com/user-attachments/assets/c20e8b95-2150-4ed7-99e3-272e08b28ed8)
+
+
+Welcome to the **Zed Windows Build** - a PowerShell script to build the Zed code editor from source on Windows.
 
 # Prerequisites
 Before running this script, ensure you have the following:
