@@ -27,7 +27,7 @@ Also note: the script will automatically download `git` and `rustup` if they are
 
 For a breakdown of the script see the section below:
 
-# 🔨 Steps
+# 🔨 What the Script Does
 **The script automates the following steps.**
 
 ### 1) Check if the user is running as administrator, exit if not.
