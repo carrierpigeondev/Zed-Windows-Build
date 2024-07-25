@@ -1,6 +1,6 @@
 # 🖥️ Zed Windows Build
 ![image](https://github.com/user-attachments/assets/c20e8b95-2150-4ed7-99e3-272e08b28ed8)
-
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
 Welcome to the **Zed Windows Build** - a PowerShell script to build the Zed code editor from source on Windows.
 
